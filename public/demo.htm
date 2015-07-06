@@ -1,0 +1,34 @@
+<html>
+
+<head>
+  <link href='style.css' rel='stylesheet' type='text/css'/>
+  <style>
+  @font-face {
+    font-family: 'Awesome';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/fontawesome-webfont.ttf#melon?foo?bar"); 
+  }
+
+  #container {
+    border:3px solid white;
+  }
+  .awesome {
+    font-family: 'Awesome';
+    color : black;
+  }
+  </style>
+</head>
+
+<body>
+<script src="lonesomedom/release/pack.js">;</script>
+<div id="container">
+
+  This is AWESOME <span class="awesome">   </span> <br/>
+  <img src="drawing.png" width="80px" />
+
+</div>
+  <button id="btn_demo" onclick="lonesomedom(document.getElementById('container'), function(err, full){ console.log(full.outerHTML)})">Click here to console.log current page lonesome DOM</button>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+[submodule "public/lonesomedom"]
+	path = public/lonesomedom
+	url = git@github.com:ivsgroup/lonesomedom.git
